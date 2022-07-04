@@ -2,8 +2,10 @@ body {
   font-family: "Poppins", sans-serif;
    margin: 0;
 }
-.top_banner {
-  display: flex;
+section{
+    display: flex;
+}
+.top_banner { 
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -14,6 +16,9 @@ body {
 }
 h1 {
   font-size: 50px;
+}
+p{
+    color: dimgray;
 }
 .name-color {
   color: orange;
@@ -28,4 +33,10 @@ h1 {
   font-weight: 700;
   background: linear-gradient(lightsalmon, tomato);
   border-radius: 5px;
+}
+.big-dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    padding-top: 100px;
 }
